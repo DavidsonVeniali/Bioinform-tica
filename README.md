@@ -1,2 +1,1 @@
-# Bioinformatica
-Scripts e códigos importantes para um trabalho de Bioinformática. É possível que ao longo do tempo alguns códigos ou comandos de programas especificos possa ser alterados.
+Important scripts and codes for Bioinformatics work. It is possible that over time some codes or commands of specific programs can be changed.
