@@ -1,0 +1,10 @@
+#This is a normal blast, you need a file that will be your query, and a file that will be your database. These files need to be .fa
+
+makeblastdb -in "file_name"  -dbtype prot
+
+#This command will transform your file into a database, now let's finally do the blast.
+
+blastp \-query "file_name" \-db "file_used_in_makedb" \-out "output_file_name" \-evalue 1e-5 \-outfmt 10 \-num_threads "number_of_threads_that_will_be_used"
+
+#-query: Query will be the file played against the database. -db: This is the database generated in the last command. -out: output file name -evalue: 
+punctuation values for each alignment. -outfmt: Output formats of the generated file. -num_threads: Numbers of threads used for the process, check your computer for errors.
