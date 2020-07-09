@@ -1,0 +1,8 @@
+#This file will show you how to do the simple installation of BLAST.
+
+sudo apt-get update
+sudo apt-get upgrade
+#These two commands will update your computer to the latest version of linux
+
+sudo apt-get install ncbi-blast+
+#This command will install BLAST on your computer, depending on your connection it may take a while.
