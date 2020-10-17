@@ -1,6 +1,6 @@
 #This is a normal blast. You need a file that will be your query, and a file that will be your database. These files need to be .fa
 
-makeblastdb -in "file_name"  -dbtype prot
+makeblastdb -in "file_name"  -dbtype "type_of_file" (prot for proteins or nucl for nucleotides)
 
 #This command will transform your file into a database, now let's finally do the blast.
 
